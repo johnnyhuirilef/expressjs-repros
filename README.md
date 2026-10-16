@@ -13,6 +13,7 @@ fixed.
 
 | Directory | Issue | What it shows |
 |---|---|---|
+| [`subdomains-ipv6-dotted-host`](./subdomains-ipv6-dotted-host) | *(pending)* | `req.subdomains` splits an IPv6 host that contains dots, such as `[::ffff:127.0.0.1]`, into `["0","[::ffff:127"]`, while `[::1]` and IPv4 hosts are not split |
 
 ## Other packages
 
